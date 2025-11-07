@@ -38,6 +38,12 @@ class Loginscreen extends StatelessWidget {
                 hintStyle: TextStyle(
                   color: const Color.fromARGB(90, 255, 255, 255),
                 ),
+                enabledBorder: UnderlineInputBorder(
+                  borderSide: BorderSide(color: Colors.white54, width: 2),
+                ),
+                focusedBorder: UnderlineInputBorder(
+                  borderSide: BorderSide(color: Colors.white, width: 2),
+                ),
               ),
             ),
             TextField(
@@ -57,6 +63,12 @@ class Loginscreen extends StatelessWidget {
                 hintText: 'Enter your password',
                 hintStyle: TextStyle(
                   color: const Color.fromARGB(90, 255, 255, 255),
+                ),
+                enabledBorder: UnderlineInputBorder(
+                  borderSide: BorderSide(color: Colors.white54, width: 2),
+                ),
+                focusedBorder: UnderlineInputBorder(
+                  borderSide: BorderSide(color: Colors.white, width: 2),
                 ),
                 suffixIcon: Container(
                   margin: EdgeInsets.only(right: 15),
