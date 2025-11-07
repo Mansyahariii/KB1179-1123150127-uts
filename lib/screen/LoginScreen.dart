@@ -32,8 +32,12 @@ class Loginscreen extends StatelessWidget {
                 labelStyle: const TextStyle(
                   fontSize: 14,
                   fontWeight: FontWeight.bold,
+                  color: Colors.white,
                 ),
                 hintText: 'Enter your number',
+                hintStyle: TextStyle(
+                  color: const Color.fromARGB(90, 255, 255, 255),
+                ),
               ),
             ),
             TextField(
@@ -48,11 +52,19 @@ class Loginscreen extends StatelessWidget {
                 labelStyle: const TextStyle(
                   fontSize: 14,
                   fontWeight: FontWeight.bold,
+                  color: Colors.white,
                 ),
                 hintText: 'Enter your password',
+                hintStyle: TextStyle(
+                  color: const Color.fromARGB(90, 255, 255, 255),
+                ),
                 suffixIcon: Container(
                   margin: EdgeInsets.only(right: 15),
-                  child: const Icon(Icons.visibility, size: 20),
+                  child: const Icon(
+                    Icons.visibility_off,
+                    size: 20,
+                    color: Colors.white,
+                  ),
                 ),
               ),
             ),
