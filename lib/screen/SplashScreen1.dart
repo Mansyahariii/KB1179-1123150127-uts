@@ -10,6 +10,7 @@ class Splashscreen1 extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            SizedBox(height: 50),
             Container(
               width: 180,
               height: 180,
@@ -18,10 +19,12 @@ class Splashscreen1 extends StatelessWidget {
                 color: Colors.amber,
               ),
             ),
+            SizedBox(height: 20),
             Text(
               "Start Something New",
               style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
             ),
+            SizedBox(height: 10),
             Text(
               "“Every great idea starts with a single tap.”",
               style: TextStyle(
@@ -30,6 +33,7 @@ class Splashscreen1 extends StatelessWidget {
                 color: Colors.green,
               ),
             ),
+            SizedBox(height: 20),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -41,6 +45,7 @@ class Splashscreen1 extends StatelessWidget {
                     color: Colors.green,
                   ),
                 ),
+                SizedBox(width: 5),
                 Container(
                   width: 5,
                   height: 5,
@@ -49,6 +54,7 @@ class Splashscreen1 extends StatelessWidget {
                     color: Colors.green,
                   ),
                 ),
+                SizedBox(width: 5),
                 Container(
                   width: 5,
                   height: 5,
@@ -59,6 +65,7 @@ class Splashscreen1 extends StatelessWidget {
                 ),
               ],
             ),
+            SizedBox(height: 100),
             ElevatedButton(
               onPressed: () {},
               style: ElevatedButton.styleFrom(
