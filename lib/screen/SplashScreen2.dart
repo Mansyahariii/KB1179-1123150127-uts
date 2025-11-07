@@ -46,7 +46,7 @@ class Splashscreen2 extends StatelessWidget {
                   height: 5,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.green,
+                    color: Colors.grey,
                   ),
                 ),
                 SizedBox(width: 5),
@@ -64,7 +64,7 @@ class Splashscreen2 extends StatelessWidget {
                   height: 5,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.green,
+                    color: Colors.grey,
                   ),
                 ),
               ],
