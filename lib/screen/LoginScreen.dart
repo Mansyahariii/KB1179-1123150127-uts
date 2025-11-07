@@ -20,21 +20,23 @@ class Loginscreen extends StatelessWidget {
                 color: Colors.white,
               ),
             ),
+            Text(
+              "Phone Number",
+              style: TextStyle(
+                fontSize: 14,
+                fontWeight: FontWeight.bold,
+                color: Colors.white70,
+              ),
+            ),
             TextField(
               keyboardType: TextInputType.number,
               style: const TextStyle(
-                fontSize: 14,
+                fontSize: 16,
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
               ),
               decoration: InputDecoration(
-                labelText: 'Phone Number',
-                labelStyle: const TextStyle(
-                  fontSize: 14,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white,
-                ),
-                hintText: 'Enter your number',
+                hintText: 'Enter Number',
                 hintStyle: TextStyle(
                   color: const Color.fromARGB(90, 255, 255, 255),
                 ),
@@ -46,21 +48,23 @@ class Loginscreen extends StatelessWidget {
                 ),
               ),
             ),
+            Text(
+              "Password",
+              style: TextStyle(
+                fontSize: 14,
+                fontWeight: FontWeight.bold,
+                color: Colors.white70,
+              ),
+            ),
             TextField(
               obscureText: true,
               style: const TextStyle(
-                fontSize: 14,
+                fontSize: 16,
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
               ),
               decoration: InputDecoration(
-                labelText: 'Password',
-                labelStyle: const TextStyle(
-                  fontSize: 14,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white,
-                ),
-                hintText: 'Enter your password',
+                hintText: 'Enter Password',
                 hintStyle: TextStyle(
                   color: const Color.fromARGB(90, 255, 255, 255),
                 ),
