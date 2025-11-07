@@ -1,16 +1,54 @@
-# project_uts
 
-A new Flutter project.
+# 🎯 UTS Flutter — Membuat tampilan/UI Splash Screen dan Login Page
 
-## Getting Started
+Tugas Ujian Tengah Semester mata kuliah **Mobile App**.  
+Aplikasi ini menampilkan Splash Screen dan Login Page dengan desain modern menggunakan Flutter.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📸 Hasil Screenshot
+![Screenshot Aplikasi](splashscreen.png)
+![Screenshot Aplikasi](loginscreen.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 👤 Identitas
+| Keterangan | Data |
+|-------------|------|
+| **Nama Lengkap** | Ari Firmansyah |
+| **NIM** | 1123150127 |
+
+---
+
+## 🚀 Cara Menjalankan Project
+
+> Pastikan sudah menginstal **Flutter SDK** minimal versi **3.x.x**
+
+1. Clone atau download repository project ini:
+   ```bash
+   git clone https://github.com/Mansyahariii/KB1179-1123150127-uts
+   cd KB1179-1123150127-uts
+   ````
+
+2. Install semua dependency:
+
+   ```bash
+   flutter pub get
+   ```
+
+3. Jalankan project di device atau emulator:
+
+   ```bash
+   flutter run
+   ```
+
+---
+
+## 🧠 Catatan Kendala
+
+Ada kendala pada LoginScreen saat mencoba membuat 2 tombol (tombol OTP dan tombol Continue), tidak bisa menggunakan 'width: double.infinity'.
+Selebihnya aman sentosa.
+
+---
+
+✨ *Dibuat dengan senang hati, pegel pegel dikit.*
