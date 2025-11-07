@@ -24,12 +24,12 @@ class Splashscreen3 extends StatelessWidget {
             ),
             SizedBox(height: 20),
             Text(
-              "Start Something New",
+              "Dream in Pixels",
               style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 10),
             Text(
-              "“Every great idea starts with a single tap.”",
+              "“A blank screen today, a masterpiece tomorrow.”",
               style: TextStyle(
                 fontSize: 10.0,
                 fontWeight: FontWeight.bold,

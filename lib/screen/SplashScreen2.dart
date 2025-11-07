@@ -25,12 +25,12 @@ class Splashscreen2 extends StatelessWidget {
             ),
             SizedBox(height: 20),
             Text(
-              "Start Something New",
+              "Create. Explore. Build.",
               style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 10),
             Text(
-              "“Every great idea starts with a single tap.”",
+              "“Let’s make something amazing together.”",
               style: TextStyle(
                 fontSize: 10.0,
                 fontWeight: FontWeight.bold,
