@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project_uts/screen/SplashScreen1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
+      home: Splashscreen1(),
     );
   }
 }
