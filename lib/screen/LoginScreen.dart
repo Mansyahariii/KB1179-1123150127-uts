@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class Loginscreen extends StatelessWidget {
   const Loginscreen({super.key});
@@ -35,6 +36,9 @@ class Loginscreen extends StatelessWidget {
                   ),
                   TextField(
                     keyboardType: TextInputType.number,
+                    inputFormatters: [
+                      FilteringTextInputFormatter.allow(RegExp(r'[0-9+]')),
+                    ],
                     cursorColor: Colors.white,
                     style: const TextStyle(
                       fontSize: 14,
@@ -127,7 +131,7 @@ class Loginscreen extends StatelessWidget {
                   "Forgot Password?",
                   style: TextStyle(
                     fontSize: 12.0,
-                    fontWeight: FontWeight.w400,
+                    fontWeight: FontWeight.w500,
                     color: Colors.white,
                   ),
                 ),
