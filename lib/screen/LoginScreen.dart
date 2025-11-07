@@ -19,6 +19,22 @@ class Loginscreen extends StatelessWidget {
                 color: Colors.white,
               ),
             ),
+            TextField(
+              keyboardType: TextInputType.number,
+              style: const TextStyle(
+                fontSize: 14,
+                fontWeight: FontWeight.bold,
+                color: Colors.white,
+              ),
+              decoration: InputDecoration(
+                labelText: 'Phone Number',
+                labelStyle: const TextStyle(
+                  fontSize: 14,
+                  fontWeight: FontWeight.bold,
+                ),
+                hintText: 'Enter your number',
+              ),
+            ),
           ],
         ),
       ),
