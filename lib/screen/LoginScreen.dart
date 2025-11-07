@@ -14,6 +14,7 @@ class Loginscreen extends StatelessWidget {
             Text(
               "Login",
               style: TextStyle(
+                fontFamily: 'Poppins',
                 fontSize: 50.0,
                 fontWeight: FontWeight.w800,
                 color: Colors.white,
@@ -58,7 +59,7 @@ class Loginscreen extends StatelessWidget {
             ElevatedButton(
               onPressed: () {},
               style: ElevatedButton.styleFrom(
-                backgroundColor: const Color.fromARGB(50, 21, 10, 22),
+                backgroundColor: Colors.green[900],
                 foregroundColor: Colors.white,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(12),
@@ -80,10 +81,18 @@ class Loginscreen extends StatelessWidget {
               child: const Text(
                 "Continue",
                 style: TextStyle(
-                  fontSize: 12.0,
+                  fontSize: 14.0,
                   fontWeight: FontWeight.bold,
                   color: Colors.white,
                 ),
+              ),
+            ),
+            Text(
+              "Forgot Password?",
+              style: TextStyle(
+                fontSize: 14.0,
+                fontWeight: FontWeight.w400,
+                color: Colors.white,
               ),
             ),
           ],
