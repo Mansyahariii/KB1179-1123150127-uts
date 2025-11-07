@@ -47,10 +47,7 @@ class Loginscreen extends StatelessWidget {
                     ),
                     decoration: InputDecoration(
                       hintText: 'Enter Number',
-                      hintStyle: TextStyle(
-                        fontSize: 14,
-                        color: const Color.fromARGB(90, 255, 255, 255),
-                      ),
+                      hintStyle: TextStyle(fontSize: 14, color: Colors.white38),
                       enabledBorder: UnderlineInputBorder(
                         borderSide: BorderSide(color: Colors.white54),
                       ),
@@ -78,10 +75,7 @@ class Loginscreen extends StatelessWidget {
                     ),
                     decoration: InputDecoration(
                       hintText: 'Enter Password',
-                      hintStyle: TextStyle(
-                        fontSize: 14,
-                        color: const Color.fromARGB(90, 255, 255, 255),
-                      ),
+                      hintStyle: TextStyle(fontSize: 14, color: Colors.white38),
                       enabledBorder: UnderlineInputBorder(
                         borderSide: BorderSide(color: Colors.white54),
                       ),
