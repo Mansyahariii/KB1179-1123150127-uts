@@ -34,20 +34,21 @@ class Loginscreen extends StatelessWidget {
                 TextField(
                   keyboardType: TextInputType.number,
                   style: const TextStyle(
-                    fontSize: 16,
+                    fontSize: 14,
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
                   ),
                   decoration: InputDecoration(
                     hintText: 'Enter Number',
                     hintStyle: TextStyle(
+                      fontSize: 14,
                       color: const Color.fromARGB(90, 255, 255, 255),
                     ),
                     enabledBorder: UnderlineInputBorder(
-                      borderSide: BorderSide(color: Colors.white54, width: 2),
+                      borderSide: BorderSide(color: Colors.white54),
                     ),
                     focusedBorder: UnderlineInputBorder(
-                      borderSide: BorderSide(color: Colors.white, width: 2),
+                      borderSide: BorderSide(color: Colors.white),
                     ),
                   ),
                 ),
@@ -63,20 +64,21 @@ class Loginscreen extends StatelessWidget {
                 TextField(
                   obscureText: true,
                   style: const TextStyle(
-                    fontSize: 16,
+                    fontSize: 14,
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
                   ),
                   decoration: InputDecoration(
                     hintText: 'Enter Password',
                     hintStyle: TextStyle(
+                      fontSize: 14,
                       color: const Color.fromARGB(90, 255, 255, 255),
                     ),
                     enabledBorder: UnderlineInputBorder(
-                      borderSide: BorderSide(color: Colors.white54, width: 2),
+                      borderSide: BorderSide(color: Colors.white54),
                     ),
                     focusedBorder: UnderlineInputBorder(
-                      borderSide: BorderSide(color: Colors.white, width: 2),
+                      borderSide: BorderSide(color: Colors.white),
                     ),
                     suffixIcon: Container(
                       margin: EdgeInsets.only(right: 15),
@@ -114,6 +116,7 @@ class Loginscreen extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 70),
             TextButton(
               onPressed: () {},
               child: Text(
