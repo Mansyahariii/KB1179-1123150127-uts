@@ -22,6 +22,14 @@ class Splashscreen1 extends StatelessWidget {
               "Start Something New",
               style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
             ),
+            Text(
+              "“Every great idea starts with a single tap.”",
+              style: TextStyle(
+                fontSize: 10.0,
+                fontWeight: FontWeight.bold,
+                color: Colors.green,
+              ),
+            ),
           ],
         ),
       ),
