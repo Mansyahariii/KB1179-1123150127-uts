@@ -35,6 +35,22 @@ class Loginscreen extends StatelessWidget {
                 hintText: 'Enter your number',
               ),
             ),
+            TextField(
+              obscureText: true,
+              style: const TextStyle(
+                fontSize: 14,
+                fontWeight: FontWeight.bold,
+                color: Colors.white,
+              ),
+              decoration: InputDecoration(
+                labelText: 'Password',
+                labelStyle: const TextStyle(
+                  fontSize: 14,
+                  fontWeight: FontWeight.bold,
+                ),
+                hintText: 'Enter your password',
+              ),
+            ),
           ],
         ),
       ),
