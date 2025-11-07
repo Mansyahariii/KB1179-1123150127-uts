@@ -18,6 +18,10 @@ class Splashscreen1 extends StatelessWidget {
                 color: Colors.amber,
               ),
             ),
+            Text(
+              "Start Something New",
+              style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
+            ),
           ],
         ),
       ),
