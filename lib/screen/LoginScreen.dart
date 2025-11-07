@@ -49,6 +49,10 @@ class Loginscreen extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
                 hintText: 'Enter your password',
+                suffixIcon: Container(
+                  margin: EdgeInsets.only(right: 15),
+                  child: const Icon(Icons.visibility, size: 20),
+                ),
               ),
             ),
           ],
