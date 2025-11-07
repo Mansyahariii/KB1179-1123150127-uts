@@ -69,17 +69,21 @@ class Splashscreen1 extends StatelessWidget {
               ],
             ),
             SizedBox(height: 100),
-            ElevatedButton(
-              onPressed: () {},
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.green,
-                foregroundColor: Colors.white,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(12),
+            SizedBox(
+              height: 38,
+              width: double.infinity,
+              child: ElevatedButton(
+                onPressed: () {},
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.green,
+                  foregroundColor: Colors.white,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  elevation: 2,
                 ),
-                elevation: 2,
+                child: const Text("Continue", style: TextStyle(fontSize: 12.0)),
               ),
-              child: const Text("Continue", style: TextStyle(fontSize: 12.0)),
             ),
           ],
         ),
