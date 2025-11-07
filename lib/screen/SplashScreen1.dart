@@ -16,7 +16,10 @@ class Splashscreen1 extends StatelessWidget {
               height: 180,
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
-                color: Colors.amber,
+                // color: Colors.amber,
+                image: DecorationImage(
+                  image: AssetImage("assets/images/image1.jpg"),
+                ),
               ),
             ),
             SizedBox(height: 20),
